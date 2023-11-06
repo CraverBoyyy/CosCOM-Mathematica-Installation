@@ -31,6 +31,30 @@ Download WolframEngine installer via [WolframEngine Download Page](https://www.w
   wolframscript --activate
   ```
 
-Install Jupyter Notebook and Wolfram Langunge For Jupyter
+Install Wolfram Langunge For Jupyter
 ========================
-[WolframLanguageForJupyter](https://github.com/WolframResearch/WolframLanguageForJupyter)
+Clone the WolframLanguageForJupyter repository
+```Linux
+git clone https://github.com/WolframResearch/WolframLanguageForJupyter.git
+cd WolframLanguageForJupyter
+```
+Run the following command in your shell to make the Wolfram Language engine available to Jupyter:
+```Linux
+./configure-jupyter.wls add
+```
+Check Wolfram Languge kernel on Jupyter
+```Linux
+jupyter kernelspec list
+```
+The out put should include `wolframlanguage13    ..\jupyter\kernels\wolframlanguage13`.
+
+Run Jupyter Notebook and select Wolfram Language from the drop down menu to start Wolfram kernel on your notebok.
+```Linux
+jupyter notebook
+```
+
+<p align="center">  
+<img src="https://github.com/CraverBoyyy/CosmoMC-Installation/assets/109847168/11febab3-4bac-4791-ba63-f1e5701f0d01" width="600px" height="300px"  align="center" >
+</p>
+
+For more information: [WolframLanguageForJupyter](https://github.com/WolframResearch/WolframLanguageForJupyter)
