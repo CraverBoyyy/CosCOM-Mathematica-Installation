@@ -1,4 +1,4 @@
-# Mathematica-Tutorial
+# Mathematica Installation on Jupyter
 This document shows istallation steps for WolframEngine anf WolframScript for using Mathematica on Jupyter Notebook.
 
 Install WolframEngine and WolframScript
