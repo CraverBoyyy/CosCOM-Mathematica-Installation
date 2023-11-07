@@ -9,10 +9,6 @@ Download WolframEngine installer via [WolframEngine Download Page](https://www.w
   cd Downloads
   sudo bash WolframEngine-installer.sh
   ```
-  Download WolframScript installer via [WolframScript Download Page](https://www.wolfram.com/wolframscript/) for your Linux version.
-  ```Linux
-  sudo dpkg -i WolframScript-installer.deb
-  ```
 
   Activate WolframEngine ID.
   ```Linux
@@ -23,6 +19,8 @@ Download WolframEngine installer via [WolframEngine Download Page](https://www.w
   [How do I set up the Wolfram Engine on Linux?](https://support.wolfram.com/46072)
   
   [Install WolframScript](https://reference.wolfram.com/language/workflow/InstallWolframScript.html)
+
+  [WolframScript Download Page](https://www.wolfram.com/wolframscript/) 
 
 - For MacOS
 
