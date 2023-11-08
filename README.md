@@ -1,15 +1,61 @@
 # Mathematica Installation on Jupyter
 This document shows istallation steps for WolframEngine anf WolframScript for using Mathematica on Jupyter Notebook.
 
+Install Ubuntu on Windows
+========================
+First, turn on the windows feature of `Windows Subsystem for Linux`. Search `Turn Windows features on or off` and tick on `Windows Subsystem for Linux` to allow the permission. 
+
+<p align="center">  
+<img src="https://github.com/CraverBoyyy/Mathematica-Installation/assets/109847168/c8d18143-35b0-4778-8f4e-0d277852f8e4" width="300px" height="300px"  align="center" >
+</p>
+
+You need to download the windows terminal software from microsoft store. After installing windows terminal, script the flowwing commands.
+```Linux
+wsl --set-default-version 2
+wsl --install Ubuntu
+```
+The Ubuntu terminal have been displayed and you need to set username and password for Ubuntu account. And then script the following commands for fisrt setting on Ubuntu.
+  ```Linux
+  sudo apt uodate && sudo apt upgrade
+  sudo apt-get install libgl1
+  sudo apt-get install libasound2
+  ```
+For more infomation: [https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
+
+  Install Python Languge and Jupyter.
+  ========================
+  - For Linux
+  ```Linux
+  sudo apt install python3
+  sudo apt install python3-pip
+  pip3 install numpy
+  pip3 install scipy
+  pip3 install matplotlib
+  pip3 install getdist
+  pip3 install jupyter
+  ```
+ - For MacOS
+   - Install HomeBrew
+```Linux
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+  ```Linux
+brew install python3
+python3 -m pip install --upgrade pip
+pip3 install numpy
+pip3 install scipy
+pip3 install matplotlib
+pip3 install getdist
+pip3 install jupyter
+  ```
+ 
 Install WolframEngine and WolframScript
 ========================
 Download WolframEngine installer via [WolframEngine Download Page](https://www.wolfram.com/engine/) for your OS and get your WolframEngine ID license from the page. 
 - For Linux
   ```Linux
-  cd Downloads
   sudo bash WolframEngine-installer.sh
   ```
-
   Activate WolframEngine ID.
   ```Linux
   wolframscript --activate
