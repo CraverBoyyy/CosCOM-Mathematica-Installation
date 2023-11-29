@@ -24,7 +24,7 @@ For more infomation: [https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-win
 
   Install Python Languge and Jupyter.
   ========================
-  - For Linux
+  - For Linux Ubuntu
   ```Linux
   sudo apt install python3
   sudo apt install python3-pip
@@ -52,7 +52,7 @@ pip3 install jupyter
 Install WolframEngine and WolframScript
 ========================
 Download WolframEngine installer via [WolframEngine Download Page](https://www.wolfram.com/engine/) for your OS and get your WolframEngine ID license from the page. 
-- For Linux
+- For Linux Ubuntu
   ```Linux
   sudo bash WolframEngine-installer.sh
   ```
