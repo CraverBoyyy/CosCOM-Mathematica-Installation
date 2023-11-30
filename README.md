@@ -16,7 +16,7 @@ wsl --install Ubuntu
 ```
 The Ubuntu terminal have been displayed and you need to set username and password for Ubuntu account. And then script the following commands for fisrt setting on Ubuntu.
   ```Linux
-  sudo apt uodate && sudo apt upgrade
+  sudo apt update && sudo apt upgrade
   sudo apt-get install libgl1
   sudo apt-get install libasound2
   ```
