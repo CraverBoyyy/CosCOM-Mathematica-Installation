@@ -17,7 +17,7 @@ Turn on the windows feature of `Windows Subsystem for Linux`. Search `Turn Windo
 
 You need to download the `Windows Terminal` software from Microsoft Store. After installing windows terminal, script the following commands on `Command Prompt`.
 ```Linux
-wsl --set-default-version 2
+wsl --set-default-version 1
 wsl --install Ubuntu
 ```
 The Ubuntu terminal have been displayed and you need to set username and password for Ubuntu account. And then script the following commands for fisrt setting on Ubuntu.
