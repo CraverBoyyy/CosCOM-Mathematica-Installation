@@ -23,7 +23,7 @@ wsl --install Ubuntu
 The Ubuntu terminal have been displayed and you need to set username and password for Ubuntu account. And then script the following commands for fisrt setting on Ubuntu.
   ```Linux
   sudo apt update && sudo apt upgrade
-  sudo apt-get install libgl1
+  sudo apt-get install libegl1
   sudo apt-get install libasound2
   ```
 For more infomation: [https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
