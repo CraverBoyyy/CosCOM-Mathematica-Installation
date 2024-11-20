@@ -108,3 +108,8 @@ jupyter notebook
 </p>
 
 For more information: [WolframLanguageForJupyter](https://github.com/WolframResearch/WolframLanguageForJupyter)
+
+Visual Studio Code 
+========================
+
+
