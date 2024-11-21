@@ -109,7 +109,16 @@ jupyter notebook
 
 For more information: [WolframLanguageForJupyter](https://github.com/WolframResearch/WolframLanguageForJupyter)
 
-Visual Studio Code 
+Visual Studio Code (Optional)
 ========================
+To launch Jupyter Notebook, you can use its built-in GUI; however, this can be inconvenient when frequently switching between the notebook and the terminal. I recommend using Visual Studio Code (VS Code) for primary editing and code execution. This code editor is lightweight, high-performance, supports numerous extensions, and is free to use.
 
+Click on this link and follow the installation instructions specific to your machine's operating system.
+```Linux
+https://code.visualstudio.com/
+```
 
+For Windows, you need to set up for connecting VS Code with WSL.
+```Linux
+https://code.visualstudio.com/docs/remote/wsl
+```
