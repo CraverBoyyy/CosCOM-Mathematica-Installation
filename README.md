@@ -3,13 +3,7 @@ This document shows istallation steps for WolframEngine anf WolframScript for us
 
 Install Ubuntu on Windows
 ========================
-First, dowload `Windows Subsystem for Linux` from Microsoft Store.
-
-<p align="center">  
-<img src="https://github.com/CraverBoyyy/Mathematica-Installation/assets/109847168/561f59c4-e73b-40a1-ae29-6fde23ffa87a" width="700px" height="450px"  align="center" >
-</p>
-
-Turn on the windows feature of `Windows Subsystem for Linux`. Search `Turn Windows features on or off` and tick on `Windows Subsystem for Linux` to allow the permission. 
+First, turn on the windows feature of `Windows Subsystem for Linux`. Search `Turn Windows features on or off` and tick on `Windows Subsystem for Linux` to allow the permission. 
 
 <p align="center">  
 <img src="https://github.com/CraverBoyyy/Mathematica-Installation/assets/109847168/c8d18143-35b0-4778-8f4e-0d277852f8e4" width="300px" height="300px"  align="center" >
