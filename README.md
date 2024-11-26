@@ -15,11 +15,12 @@ Turn on the windows feature of `Windows Subsystem for Linux`. Search `Turn Windo
 <img src="https://github.com/CraverBoyyy/Mathematica-Installation/assets/109847168/c8d18143-35b0-4778-8f4e-0d277852f8e4" width="300px" height="300px"  align="center" >
 </p>
 
-You need to download the `Windows Terminal` software from Microsoft Store. After installing windows terminal, script the following commands on `Command Prompt`.
+You need to download the `Windows Terminal` software from Microsoft Store. After installing windows terminal, open `Terminal` using `Run as administrator`.
 ```Linux
-wsl --set-default-version 1
-wsl --install Ubuntu
+wsl --install
+restart-computer
 ```
+After restart your computer, open `Ubuntu` by `Terminal` or search on start menu. \
 The Ubuntu terminal have been displayed and you need to set username and password for Ubuntu account. And then script the following commands for fisrt setting on Ubuntu.
   ```Linux
   sudo apt update && sudo apt upgrade
