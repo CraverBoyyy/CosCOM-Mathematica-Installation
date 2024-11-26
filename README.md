@@ -108,9 +108,17 @@ Visual Studio Code (Optional)
 ========================
 To launch Jupyter Notebook, you can use its built-in GUI; however, this can be inconvenient when frequently switching between the notebook and the terminal. I recommend using Visual Studio Code (VS Code) for primary editing and code execution. This code editor is lightweight, high-performance, supports numerous extensions, and is free to use.
 
-Click on this link and follow the installation instructions specific to your machine's operating system.
-[Visual Studio Code](https://code.visualstudio.com/)
+Click on this link and follow the installation instructions specific to your machine's operating system.\
+[Visual Studio Code](https://code.visualstudio.com/) 
+<p align="center">  
+<img src="https://github.com/user-attachments/assets/786e642f-bbb6-4f22-900a-f2e96e0804ee" width="760px" height="400px"  align="center" >
+</p>
+For Windows, you can download from Microsoft Store.
+<p align="center">  
+<img src="https://github.com/user-attachments/assets/40b9b9ec-d236-46a3-8e72-85cd59c02fc5" width="600px" height="460px"  align="center" >
+</p>
 
-For Windows, you need to set up for connecting VS Code with WSL.
+For all OS, you need to set up for connecting VS Code with WSL.\
 [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
+
 
